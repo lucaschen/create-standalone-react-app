@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const child_process = require("child_process");
 const fs = require("fs-extra");
 const path = require("path");
