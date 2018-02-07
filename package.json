@@ -1,0 +1,20 @@
+{
+  "name": "create-standalone-react-app",
+  "version": "1.0.0",
+  "description": "My own version of the Create React App tool, designed to make setting up a standalone React project easier.",
+  "bin": {
+    "create-standalone-react-app": "cli.js"
+  },
+  "scripts": {
+    "cli": "node cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkroolucas/create-standalone-react-app.git"
+  },
+  "author": "Lucas Chen",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "~5.0.0"
+  }
+}
