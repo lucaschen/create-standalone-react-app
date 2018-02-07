@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "linkall": "npm link create-standalone-react-app",
+    "test": "create-standalone-react-app test"
+  },
+  "dependencies": {
+    "create-standalone-react-app": "~1.0.1"
+  }
+}
