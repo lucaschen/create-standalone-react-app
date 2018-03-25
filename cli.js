@@ -23,7 +23,7 @@ if (!fs.existsSync(pwdify(directoryName))) {
   process.exit();
 }
 
-console.log(`Clone successful! Cleaning up...`);
+console.log(`Clone successful! Cleaning up and installing dependencies...`);
 
 (async () => {
   await Promise.all([
@@ -39,6 +39,8 @@ console.log(`Clone successful! Cleaning up...`);
       await fs.writeJson(pwdify(`${directoryName}/package.json`), packageJson, {
         spaces: 2
       });
+
+      child_process.execSync(`cd ${directoryName} && npm i`);
     })()
   ]);
 
