@@ -1,6 +1,6 @@
 {
   "name": "create-standalone-react-app",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "My own version of the Create React App tool, designed to make setting up a standalone React project easier.",
   "bin": {
     "create-standalone-react-app": "cli.js"
