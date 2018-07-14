@@ -16,7 +16,7 @@ if (fs.existsSync(pwdify(directoryName))) {
   process.exit();
 }
 
-child_process.execSync(`git clone git@github.com:parkroolucas/react-app-starter ${directoryName}`);
+child_process.execSync(`git clone https://github.com/parkroolucas/react-app-starter ${directoryName}`);
 
 if (!fs.existsSync(pwdify(directoryName))) {
   console.log("Something went wrong...");
